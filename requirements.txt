@@ -1,0 +1,9 @@
+torch
+torchvision
+timm
+configargparse
+albumentations
+segmentation-models-pytorch
+tqdm
+wandb
+opencv-python-headless

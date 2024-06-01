@@ -1,0 +1,13 @@
+train-ds-path: ""
+valid-ds-path: ""
+save-to: ""
+
+in-memory: true
+workers: 8
+
+epochs: -1
+early-stopping: 50
+
+lr: 1e-3
+bs: 16
+device: "cuda"
