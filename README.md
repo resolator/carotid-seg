@@ -1,7 +1,7 @@
 # carotid-seg
 
 ## 1. Task description
-Localize a carotid on a ultrasound image.
+Localize a carotid on an ultrasound image.
 A largest carotid should be detected after bifurcation.
 
 An example of input image:
@@ -68,4 +68,8 @@ It was launched on provided examples and here are the results:
 
 2. Segmentation mask visualization:
 
-![pred_bbox](data/pred_seg.jpg "pred_bbox")
+![pred_mask](data/pred_seg.jpg "pred_mask")
+
+1. An example of work after bifurcation:
+
+![bifurcation](data/pred_box_bifurcation.jpg "bifurcation")
